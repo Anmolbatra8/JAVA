@@ -3,7 +3,7 @@ public class Main {
 //this can be solved : https://www.geeksforgeeks.org/problems/print-first-n-fibonacci-numbers1002/1
 
 //Next problems building upon this : N th Fibonnaci Number (imp) : https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
-  
+  // Link for next problem (v imp) : https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
 /*
 n input
 array of length n
