@@ -51,12 +51,14 @@ public class Main {
   -so just reach at those numbers 
   with the help of loops
   */
-  
-  
+
+  // MODULO CONCEPT
+  // Given a positive integer n, find the nth fibonacci number. Since the answer can be very large, return the answer modulo 1000000007.
+
   
   
   public static int nthFibonum(int N) {
-  
+  int MOD = 1000000007;
  int a = 1;
  if(N ==1)
  return a;
@@ -68,7 +70,7 @@ public class Main {
  int fibo = 0;
  
  for(int i = 3;i <= N;i++) {
- fibo = a + b;
+ fibo = (a + b) % MOD;   // MODULKO
  a = b;
  b = fibo;
  }
