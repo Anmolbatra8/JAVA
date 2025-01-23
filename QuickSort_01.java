@@ -51,5 +51,12 @@ return end;
 }
    
 }
+/*
+NEXT STEPS:
+-> Pivot element choose the last one
+-> Analysis of complexity
+-> Implement quick sort in descending 
 
+
+*/
 
